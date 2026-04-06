@@ -1,0 +1,659 @@
+[
+  {
+    "name": "Jupiter",
+    "slug": "jupiter",
+    "category": "dex",
+    "subcategory": "aggregator",
+    "website": "https://jup.ag",
+    "description": "Leading Solana DEX aggregator",
+    "wallets": [
+      "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+      "JUP4Fb2cqiRUcaTHdrPC8h2gNsA2ETXiPDD33WcGuJB"
+    ]
+  },
+  {
+    "name": "Raydium",
+    "slug": "raydium",
+    "category": "dex",
+    "subcategory": "amm",
+    "website": "https://raydium.io",
+    "description": "Solana AMM and DEX",
+    "wallets": [
+      "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+      "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+      "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C"
+    ]
+  },
+  {
+    "name": "Orca",
+    "slug": "orca",
+    "category": "dex",
+    "subcategory": "amm",
+    "website": "https://orca.so",
+    "description": "Solana DEX with concentrated liquidity",
+    "wallets": [
+      "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+      "9W959DqEETiGZocYWCQPaJ6sBmUzgfxXfqGeTEdp3aQP"
+    ]
+  },
+  {
+    "name": "Meteora",
+    "slug": "meteora",
+    "category": "dex",
+    "subcategory": "amm",
+    "website": "https://meteora.ag",
+    "description": "Solana dynamic liquidity market maker",
+    "wallets": [
+      "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB"
+    ]
+  },
+  {
+    "name": "Phantom",
+    "slug": "phantom",
+    "category": "wallet",
+    "subcategory": null,
+    "website": "https://phantom.app",
+    "description": "Leading Solana wallet",
+    "wallets": []
+  },
+  {
+    "name": "Coinbase",
+    "slug": "coinbase",
+    "category": "exchange",
+    "subcategory": "cex",
+    "website": "https://coinbase.com",
+    "description": "Major centralized exchange",
+    "wallets": [
+      "2AQdpHJ2JpcEgPiATUXjQxA8QmafFegfQwSLWSprPicm",
+      "H8sMJSCQxfKbeziRR9gMkMTDHbyEDYKoMJnAXTaNBcii"
+    ]
+  },
+  {
+    "name": "Binance",
+    "slug": "binance",
+    "category": "exchange",
+    "subcategory": "cex",
+    "website": "https://binance.com",
+    "description": "Largest global crypto exchange",
+    "wallets": [
+      "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+      "3yFwqXBfZY4jBVUafQ1YEXw189y2dN3V5KQq9uzBDy1E"
+    ]
+  },
+  {
+    "name": "Kraken",
+    "slug": "kraken",
+    "category": "exchange",
+    "subcategory": "cex",
+    "website": "https://kraken.com",
+    "description": "Major crypto exchange",
+    "wallets": [
+      "FWznbcNXWQuHTawe9RxvQ2LdCENssh12dsznf4RiouN5"
+    ]
+  },
+  {
+    "name": "OKX",
+    "slug": "okx",
+    "category": "exchange",
+    "subcategory": "cex",
+    "website": "https://okx.com",
+    "description": "Global crypto exchange",
+    "wallets": [
+      "5VCwKtCXgCDuQosrRcfFaVV5MhPrs96JSTYpvNn9Ldmt"
+    ]
+  },
+  {
+    "name": "Bybit",
+    "slug": "bybit",
+    "category": "exchange",
+    "subcategory": "cex",
+    "website": "https://bybit.com",
+    "description": "Crypto exchange",
+    "wallets": [
+      "AC5RDfQFmDS1deWZos921JfqscXdByf6BKHs5ACWjtW2"
+    ]
+  },
+  {
+    "name": "Drift Protocol",
+    "slug": "drift",
+    "category": "defi",
+    "subcategory": "perpetuals",
+    "website": "https://drift.trade",
+    "description": "Solana perpetual futures DEX",
+    "wallets": [
+      "dRiftyHA39MWEi3m9aunc5MzRF1JYuBsbn6VPcn33UH"
+    ]
+  },
+  {
+    "name": "Marinade Finance",
+    "slug": "marinade",
+    "category": "defi",
+    "subcategory": "liquid_staking",
+    "website": "https://marinade.finance",
+    "description": "Solana liquid staking protocol",
+    "wallets": [
+      "MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD"
+    ]
+  },
+  {
+    "name": "Jito",
+    "slug": "jito",
+    "category": "defi",
+    "subcategory": "liquid_staking",
+    "website": "https://jito.network",
+    "description": "Solana liquid staking with MEV rewards",
+    "wallets": [
+      "Jito4APyf642JPZPx3hGc6WWJ8zPKtRbRs4P815Awbb"
+    ]
+  },
+  {
+    "name": "Solend",
+    "slug": "solend",
+    "category": "defi",
+    "subcategory": "lending",
+    "website": "https://solend.fi",
+    "description": "Solana lending and borrowing protocol",
+    "wallets": [
+      "So1endDq2YkqhipRh3WViPa8hFSuTigYF67E46QiDDt"
+    ]
+  },
+  {
+    "name": "Marginfi",
+    "slug": "marginfi",
+    "category": "defi",
+    "subcategory": "lending",
+    "website": "https://marginfi.com",
+    "description": "Solana lending protocol",
+    "wallets": [
+      "MFv2hWf31Z9kbCa1snEPYctwafyhdvnV7FZnsebVacA"
+    ]
+  },
+  {
+    "name": "Kamino Finance",
+    "slug": "kamino",
+    "category": "defi",
+    "subcategory": "lending",
+    "website": "https://kamino.finance",
+    "description": "Solana lending and liquidity platform",
+    "wallets": [
+      "KLend2g3cP87ber41GEUgKf4ztDnzsEm5aoko1NKrVZ"
+    ]
+  },
+  {
+    "name": "Tensor",
+    "slug": "tensor",
+    "category": "defi",
+    "subcategory": "nft_marketplace",
+    "website": "https://tensor.trade",
+    "description": "Solana NFT marketplace",
+    "wallets": [
+      "TSWAPaqyCSx2KABk68Shruf4rp7CxcNi8hAsbdwmHbN"
+    ]
+  },
+  {
+    "name": "Magic Eden",
+    "slug": "magic-eden",
+    "category": "defi",
+    "subcategory": "nft_marketplace",
+    "website": "https://magiceden.io",
+    "description": "Multi-chain NFT marketplace",
+    "wallets": [
+      "M2mx93ekt1fmXSVkTrUL9xVFHkmME8HTUi5Cyc5aF7K"
+    ]
+  },
+  {
+    "name": "Pyth Network",
+    "slug": "pyth",
+    "category": "infrastructure",
+    "subcategory": "oracle",
+    "website": "https://pyth.network",
+    "description": "Solana price oracle",
+    "wallets": [
+      "FsJ3A3u2vn5cTVofAjvy6y5kwABJAqYWpe4975bi2epH"
+    ]
+  },
+  {
+    "name": "Switchboard",
+    "slug": "switchboard",
+    "category": "infrastructure",
+    "subcategory": "oracle",
+    "website": "https://switchboard.xyz",
+    "description": "Decentralized oracle network",
+    "wallets": [
+      "SW1TCH7qEPTdLsDHRgPuMQjbQxKdH2aBStViMFnt64f"
+    ]
+  },
+  {
+    "name": "Wormhole",
+    "slug": "wormhole",
+    "category": "infrastructure",
+    "subcategory": "bridge",
+    "website": "https://wormhole.com",
+    "description": "Cross-chain messaging and bridge",
+    "wallets": [
+      "wormDTUJ6AWPNvk59vGQbDvGJmqbDTdgWgAqcLBCgUb"
+    ]
+  },
+  {
+    "name": "Circle (USDC)",
+    "slug": "circle-usdc",
+    "category": "infrastructure",
+    "subcategory": "stablecoin_issuer",
+    "website": "https://circle.com",
+    "description": "USDC stablecoin issuer",
+    "wallets": [
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    ]
+  },
+  {
+    "name": "Tether (USDT)",
+    "slug": "tether-usdt",
+    "category": "infrastructure",
+    "subcategory": "stablecoin_issuer",
+    "website": "https://tether.to",
+    "description": "USDT stablecoin issuer",
+    "wallets": [
+      "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+    ]
+  },
+  {
+    "name": "Helius",
+    "slug": "helius",
+    "category": "infrastructure",
+    "subcategory": "rpc_provider",
+    "website": "https://helius.dev",
+    "description": "Solana RPC and data infrastructure",
+    "wallets": []
+  },
+  {
+    "name": "Sphere",
+    "slug": "sphere",
+    "category": "payment_processor",
+    "subcategory": null,
+    "website": "https://spherepay.co",
+    "description": "Solana payment processing",
+    "wallets": []
+  },
+  {
+    "name": "Stripe Crypto",
+    "slug": "stripe-crypto",
+    "category": "payment_processor",
+    "subcategory": "onramp",
+    "website": "https://stripe.com",
+    "description": "Fiat-to-crypto onramp by Stripe",
+    "wallets": []
+  },
+  {
+    "name": "MoonPay",
+    "slug": "moonpay",
+    "category": "payment_processor",
+    "subcategory": "onramp",
+    "website": "https://moonpay.com",
+    "description": "Crypto on/off ramp",
+    "wallets": []
+  },
+  {
+    "name": "Crossmint",
+    "slug": "crossmint",
+    "category": "payment_processor",
+    "subcategory": "onramp",
+    "website": "https://crossmint.com",
+    "description": "NFT and crypto checkout platform",
+    "wallets": []
+  },
+  {
+    "name": "Solana Pay",
+    "slug": "solana-pay",
+    "category": "payment_processor",
+    "subcategory": "payment_protocol",
+    "website": "https://solanapay.com",
+    "description": "Solana native payment protocol",
+    "wallets": []
+  },
+  {
+    "name": "Helium",
+    "slug": "helium",
+    "category": "infrastructure",
+    "subcategory": "depin",
+    "website": "https://helium.com",
+    "description": "Decentralized wireless network on Solana",
+    "wallets": [
+      "hdaoVTCqhfHHo75XdAMxBKdUqvq1i5bF23sisBqVgGR"
+    ]
+  },
+  {
+    "name": "Render Network",
+    "slug": "render",
+    "category": "infrastructure",
+    "subcategory": "depin",
+    "website": "https://rendernetwork.com",
+    "description": "Decentralized GPU rendering network",
+    "wallets": []
+  },
+  {
+    "name": "Pump.fun",
+    "slug": "pump-fun",
+    "category": "defi",
+    "subcategory": "token_launchpad",
+    "website": "https://pump.fun",
+    "description": "Solana token launchpad",
+    "wallets": [
+      "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      "39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg"
+    ]
+  },
+  {
+    "name": "Squads Protocol",
+    "slug": "squads",
+    "category": "infrastructure",
+    "subcategory": "multisig",
+    "website": "https://squads.so",
+    "description": "Solana multisig and smart account protocol",
+    "wallets": [
+      "SMPLecH534NA9acpos4G6x7uf3LWbCAwZQE9e8ZekMu"
+    ]
+  },
+  {
+    "name": "Backpack",
+    "slug": "backpack",
+    "category": "exchange",
+    "subcategory": "cex",
+    "website": "https://backpack.exchange",
+    "description": "Solana-native exchange and wallet",
+    "wallets": []
+  },
+  {
+    "name": "Solflare",
+    "slug": "solflare",
+    "category": "wallet",
+    "subcategory": null,
+    "website": "https://solflare.com",
+    "description": "Solana wallet",
+    "wallets": []
+  },
+  {
+    "name": "Sanctum",
+    "slug": "sanctum",
+    "category": "defi",
+    "subcategory": "liquid_staking",
+    "website": "https://sanctum.so",
+    "description": "Solana LST infrastructure",
+    "wallets": [
+      "stkitrT1Uoy18Dk1fRhStg4GhZHf8STV4hn4TPQuZ1P"
+    ]
+  },
+  {
+    "name": "Banxa",
+    "slug": "banxa",
+    "category": "payment_processor",
+    "subcategory": "onramp",
+    "website": "https://banxa.com",
+    "description": "Fiat-to-crypto payment gateway",
+    "wallets": []
+  },
+  {
+    "name": "Alchemy Pay",
+    "slug": "alchemy-pay",
+    "category": "payment_processor",
+    "subcategory": "onramp",
+    "website": "https://alchemypay.org",
+    "description": "Crypto payment on/off ramp",
+    "wallets": []
+  },
+  {
+    "name": "Ramp Network",
+    "slug": "ramp-network",
+    "category": "payment_processor",
+    "subcategory": "onramp",
+    "website": "https://ramp.network",
+    "description": "Fiat-to-crypto payment gateway",
+    "wallets": []
+  },
+  {
+    "name": "Tiplink",
+    "slug": "tiplink",
+    "category": "payment_processor",
+    "subcategory": "payment_links",
+    "website": "https://tiplink.io",
+    "description": "Solana payment links and airdrops",
+    "wallets": []
+  },
+  {
+    "name": "Streamflow",
+    "slug": "streamflow",
+    "category": "defi",
+    "subcategory": "token_vesting",
+    "website": "https://streamflow.finance",
+    "description": "Token vesting and payment streaming",
+    "wallets": [
+      "strmRqUCoQUgGUFGvQ7r33SD2m6tP5EEwK6FqnKa19F"
+    ]
+  },
+  {
+    "name": "Star Atlas",
+    "slug": "star-atlas",
+    "category": "retail",
+    "subcategory": "gaming",
+    "website": "https://staratlas.com",
+    "description": "Solana blockchain game",
+    "wallets": []
+  },
+  {
+    "name": "Genopets",
+    "slug": "genopets",
+    "category": "retail",
+    "subcategory": "gaming",
+    "website": "https://genopets.me",
+    "description": "Move-to-earn game on Solana",
+    "wallets": []
+  },
+  {
+    "name": "Drip Haus",
+    "slug": "drip-haus",
+    "category": "retail",
+    "subcategory": "nft_platform",
+    "website": "https://drip.haus",
+    "description": "NFT distribution platform on Solana",
+    "wallets": []
+  },
+  {
+    "name": "Dialect",
+    "slug": "dialect",
+    "category": "infrastructure",
+    "subcategory": "messaging",
+    "website": "https://dialect.to",
+    "description": "Solana messaging and notifications",
+    "wallets": []
+  },
+  {
+    "name": "MonkeDAO",
+    "slug": "monkedao",
+    "category": "retail",
+    "subcategory": "dao",
+    "website": "https://monkedao.io",
+    "description": "Solana NFT community DAO",
+    "wallets": []
+  },
+  {
+    "name": "Token Extensions Program",
+    "slug": "token-extensions",
+    "category": "infrastructure",
+    "subcategory": "token_program",
+    "website": "https://spl.solana.com/token-2022",
+    "description": "Solana Token-2022 program with transfer hooks and confidential transfers",
+    "wallets": [
+      "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
+    ]
+  },
+  {
+    "name": "SPL Token Program",
+    "slug": "spl-token",
+    "category": "infrastructure",
+    "subcategory": "token_program",
+    "website": "https://spl.solana.com/token",
+    "description": "Solana SPL Token program",
+    "wallets": [
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+    ]
+  },
+  {
+    "name": "Spritz Finance",
+    "slug": "spritz",
+    "category": "payment_processor",
+    "subcategory": "offramp",
+    "website": "https://spritz.finance",
+    "description": "Crypto-to-fiat bill pay and off-ramp",
+    "wallets": []
+  },
+  {
+    "name": "Decaf",
+    "slug": "decaf",
+    "category": "payment_processor",
+    "subcategory": "wallet",
+    "website": "https://decaf.so",
+    "description": "Solana stablecoin wallet for everyday payments",
+    "wallets": []
+  },
+  {
+    "name": "Visa USDC Settlement",
+    "slug": "visa-usdc",
+    "category": "payment_processor",
+    "subcategory": "settlement",
+    "website": "https://visa.com",
+    "description": "Visa USDC settlement on Solana",
+    "wallets": []
+  },
+  {
+    "name": "PayPal PYUSD",
+    "slug": "paypal-pyusd",
+    "category": "payment_processor",
+    "subcategory": "stablecoin",
+    "website": "https://paypal.com",
+    "description": "PayPal stablecoin on Solana",
+    "wallets": [
+      "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo"
+    ]
+  },
+  {
+    "name": "Shopify Solana Pay",
+    "slug": "shopify-solana-pay",
+    "category": "retail",
+    "subcategory": "ecommerce",
+    "website": "https://shopify.com",
+    "description": "Shopify integration with Solana Pay",
+    "wallets": []
+  },
+  {
+    "name": "Phantom Swaps",
+    "slug": "phantom-swaps",
+    "category": "dex",
+    "subcategory": "in_wallet_swap",
+    "website": "https://phantom.app",
+    "description": "In-wallet token swaps via Phantom",
+    "wallets": []
+  },
+  {
+    "name": "Realms",
+    "slug": "realms",
+    "category": "infrastructure",
+    "subcategory": "governance",
+    "website": "https://realms.today",
+    "description": "Solana DAO governance platform",
+    "wallets": [
+      "GovER5Lthms3bLBqWub97yVRqDfY29GYHdpkS2LZ5Gho"
+    ]
+  },
+  {
+    "name": "Mango Markets",
+    "slug": "mango",
+    "category": "defi",
+    "subcategory": "perpetuals",
+    "website": "https://mango.markets",
+    "description": "Solana trading and lending platform",
+    "wallets": [
+      "4MangoMjqJ2firMokCjjGPuFqYHYiPECGGXnHRRE9cmZ"
+    ]
+  },
+  {
+    "name": "Flash Trade",
+    "slug": "flash-trade",
+    "category": "defi",
+    "subcategory": "perpetuals",
+    "website": "https://flash.trade",
+    "description": "Solana perpetual futures exchange",
+    "wallets": [
+      "FLASH6Lo6h3iasJKWDs2F8TkW2UKf3s15C8PMGuVfgBn"
+    ]
+  },
+  {
+    "name": "Lifinity",
+    "slug": "lifinity",
+    "category": "dex",
+    "subcategory": "amm",
+    "website": "https://lifinity.io",
+    "description": "Solana proactive market maker DEX",
+    "wallets": [
+      "2wT8Yq49kHgDzXuPxZSaeLaH1qbmGXtEyPy64bL7aD3C"
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "category": "dex",
+    "subcategory": "order_book",
+    "website": "https://ellipsis.markets",
+    "description": "Solana on-chain order book DEX",
+    "wallets": [
+      "PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY"
+    ]
+  },
+  {
+    "name": "OpenBook",
+    "slug": "openbook",
+    "category": "dex",
+    "subcategory": "order_book",
+    "website": "https://openbookdex.com",
+    "description": "Solana community-run order book DEX",
+    "wallets": [
+      "opnb2LAfJYbRMAHHvqjCwQxanZn7ReEHp1k81EQyzSY"
+    ]
+  },
+  {
+    "name": "Solayer",
+    "slug": "solayer",
+    "category": "defi",
+    "subcategory": "restaking",
+    "website": "https://solayer.org",
+    "description": "Solana restaking protocol",
+    "wallets": []
+  },
+  {
+    "name": "Parcl",
+    "slug": "parcl",
+    "category": "defi",
+    "subcategory": "rwa",
+    "website": "https://parcl.co",
+    "description": "Real estate price index trading on Solana",
+    "wallets": []
+  },
+  {
+    "name": "Ondo Finance",
+    "slug": "ondo",
+    "category": "defi",
+    "subcategory": "rwa",
+    "website": "https://ondo.finance",
+    "description": "Tokenized US treasuries and RWAs",
+    "wallets": []
+  },
+  {
+    "name": "Maple Finance",
+    "slug": "maple",
+    "category": "defi",
+    "subcategory": "lending",
+    "website": "https://maple.finance",
+    "description": "Institutional lending protocol",
+    "wallets": []
+  }
+]

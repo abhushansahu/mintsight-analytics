@@ -1,0 +1,49 @@
+version: "3.9"
+
+services:
+  db:
+    image: timescale/timescaledb:latest-pg16
+    environment:
+      POSTGRES_USER: onchain_spade
+      POSTGRES_PASSWORD: spade_dev_pass
+      POSTGRES_DB: onchain_spade
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U onchain_spade"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+asyncpg://onchain_spade:spade_dev_pass@db:5432/onchain_spade
+      DATABASE_URL_SYNC: postgresql://onchain_spade:spade_dev_pass@db:5432/onchain_spade
+      HELIUS_API_KEY: ${HELIUS_API_KEY:-}
+      HELIUS_WEBHOOK_SECRET: ${HELIUS_WEBHOOK_SECRET:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend/src:/app/src
+    command: npm run dev
+
+volumes:
+  pgdata:
