@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Suspense } from "react";
 import { Activity, Database, Store, DollarSign } from "lucide-react";
 import StatCard from "@/components/StatCard";
 import VolumeChart from "@/components/VolumeChart";
@@ -56,7 +57,9 @@ export default function Home() {
       <TransactionFeed />
 
       {/* Entity explorer */}
-      <EntityExplorer />
+      <Suspense fallback={<div className="text-sm text-zinc-500">Loading…</div>}>
+        <EntityExplorer />
+      </Suspense>
     </div>
   );
 }

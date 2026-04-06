@@ -2,10 +2,12 @@
 
 import { useEffect, useState } from "react";
 import { api, EntityInfo } from "@/lib/api";
+import { useUrlSelectors } from "@/lib/useUrlSelectors";
 
 export default function EntityExplorer() {
   const [entities, setEntities] = useState<EntityInfo[]>([]);
-  const [search, setSearch] = useState("");
+  const { selectors, replace } = useUrlSelectors();
+  const search = selectors.search ?? "";
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -39,7 +41,10 @@ export default function EntityExplorer() {
           type="text"
           placeholder="Search entities..."
           value={search}
-          onChange={(e) => { setSearch(e.target.value); setLoading(true); }}
+          onChange={(e) => {
+            replace({ search: e.target.value });
+            setLoading(true);
+          }}
           className="px-3 py-1.5 rounded-lg bg-zinc-800 border border-zinc-700 text-sm text-white placeholder:text-zinc-500 focus:outline-none focus:border-indigo-500 w-60"
         />
       </div>

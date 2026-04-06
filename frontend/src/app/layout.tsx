@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import TopNav from "@/components/TopNav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <h1 className="text-lg font-bold text-white leading-tight">MintSight</h1>
               <p className="text-xs text-zinc-500">Solana Payment Intent Analytics</p>
             </div>
+            <TopNav />
           </div>
         </header>
         <main className="max-w-7xl mx-auto px-4 py-6">{children}</main>
