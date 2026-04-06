@@ -35,4 +35,4 @@ MintSight: Solana payments → **entity + flow intelligence**. Dashboard + API f
 
 ## Handoff to engineering narrative
 
-When release documentation lands, add a single line under **Release notes** pointing readers to `CHANGELOG.md` or the README “What’s new” section so marketing and engineering stay one story.
+Engineering source of truth for the same ship window: [CHANGELOG.md](../CHANGELOG.md) and [README — Engineering visibility](../README.md#engineering-visibility). When you extend **Release notes** here, keep wording consistent with those files.

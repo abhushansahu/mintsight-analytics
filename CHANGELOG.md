@@ -4,6 +4,8 @@ All notable changes to this project are documented here. Dates use UTC.
 
 ## [Unreleased]
 
+Board-facing copy aligned with this window: [docs/board-narrative.md](docs/board-narrative.md).
+
 ### Added
 
 - Frontend: top navigation across Overview, Entities, Categories, and Flows.

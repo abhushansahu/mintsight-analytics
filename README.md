@@ -27,7 +27,7 @@ python -m app.seed_loader
 
 ## Engineering visibility
 
-What ships lives in git on branch `cursor/onchain-spade-mvp` (see `origin` on GitHub). For a concise feature log, read [CHANGELOG.md](CHANGELOG.md). Open a PR from that branch when you want board review before merging to `main`.
+What ships lives in git on branch `cursor/onchain-spade-mvp` (see `origin` on GitHub). For a concise feature log, read [CHANGELOG.md](CHANGELOG.md). Board- and marketing-facing narrative for the same ship window lives in [docs/board-narrative.md](docs/board-narrative.md). Open a PR from that branch when you want board review before merging to `main`.
 
 ## Architecture
 
