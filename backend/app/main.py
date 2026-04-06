@@ -5,8 +5,8 @@ from app.api import analytics, entities, transactions, webhooks
 from app.config import settings
 
 app = FastAPI(
-    title="Onchain Spade",
-    description="Solana payment intent analytics — transaction data enrichment API",
+    title="MintSight Analytics",
+    description="MintSight Analytics — Solana payment intent analytics and transaction enrichment API",
     version="0.1.0",
 )
 

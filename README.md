@@ -1,6 +1,6 @@
-# Onchain Spade — Solana Payment Intent Analytics
+# MintSight Analytics — Solana Payment Intent Analytics
 
-Transaction data enrichment and commerce intelligence for the Solana payment economy. Think "Spade for onchain" — mapping wallet addresses to merchant entities, classifying transactions as B2B/B2C/protocol, and surfacing spending patterns through an API and dashboard.
+Transaction data enrichment and commerce intelligence for the Solana payment economy. MintSight maps wallet addresses to entities, classifies flows as B2B/B2C/protocol/exchange, and surfaces spending patterns through an API and dashboard.
 
 ## Quick Start
 
@@ -44,6 +44,11 @@ Helius Webhooks → Ingestion (FastAPI) → PostgreSQL/TimescaleDB
 - **Frontend:** Next.js 15, TypeScript, Tailwind CSS, Recharts
 - **Data Source:** Helius Enhanced Transactions API (webhooks)
 - **Infra:** Docker Compose
+
+## Colosseum-friendly checklist
+
+- **English-first repo**: Docs and code are in English (required in official rules).
+- **Open-source**: Includes a permissive `LICENSE` (judging criteria includes open-source and composability).
 
 ## API Endpoints
 

@@ -1,7 +1,7 @@
 [project]
-name = "onchain-spade"
+name = "mintsight-analytics"
 version = "0.1.0"
-description = "Solana payment intent analytics — transaction data enrichment API"
+description = "MintSight Analytics — Solana payment intent analytics and transaction enrichment API"
 requires-python = ">=3.11"
 dependencies = [
     "fastapi[standard]",
