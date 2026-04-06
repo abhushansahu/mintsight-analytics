@@ -25,6 +25,10 @@ python -m app.seed_loader
 # Dashboard: http://localhost:3000
 ```
 
+## Engineering visibility
+
+What ships lives in git on branch `cursor/onchain-spade-mvp` (see `origin` on GitHub). For a concise feature log, read [CHANGELOG.md](CHANGELOG.md). Open a PR from that branch when you want board review before merging to `main`.
+
 ## Architecture
 
 ```
