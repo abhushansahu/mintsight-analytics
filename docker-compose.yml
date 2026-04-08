@@ -4,15 +4,15 @@ services:
   db:
     image: timescale/timescaledb:latest-pg16
     environment:
-      POSTGRES_USER: onchain_spade
-      POSTGRES_PASSWORD: spade_dev_pass
-      POSTGRES_DB: onchain_spade
+      POSTGRES_USER: ${POSTGRES_USER:-onchain_spade}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-spade_dev_pass}
+      POSTGRES_DB: ${POSTGRES_DB:-onchain_spade}
     ports:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U onchain_spade"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-onchain_spade}"]
       interval: 5s
       timeout: 3s
       retries: 5
@@ -22,10 +22,11 @@ services:
     ports:
       - "8000:8000"
     environment:
-      DATABASE_URL: postgresql+asyncpg://onchain_spade:spade_dev_pass@db:5432/onchain_spade
-      DATABASE_URL_SYNC: postgresql://onchain_spade:spade_dev_pass@db:5432/onchain_spade
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-onchain_spade}:${POSTGRES_PASSWORD:-spade_dev_pass}@db:5432/${POSTGRES_DB:-onchain_spade}
+      DATABASE_URL_SYNC: postgresql://${POSTGRES_USER:-onchain_spade}:${POSTGRES_PASSWORD:-spade_dev_pass}@db:5432/${POSTGRES_DB:-onchain_spade}
       HELIUS_API_KEY: ${HELIUS_API_KEY:-}
       HELIUS_WEBHOOK_SECRET: ${HELIUS_WEBHOOK_SECRET:-}
+      API_KEY: ${API_KEY:-dev-api-key-12345}
     depends_on:
       db:
         condition: service_healthy
