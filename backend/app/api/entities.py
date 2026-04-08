@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, Query
-from sqlalchemy import func, select
+from sqlalchemy import func, select, text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db import get_db
@@ -22,7 +22,7 @@ async def list_entities(
     if category:
         stmt = stmt.where(Entity.category == category)
     if search:
-        stmt = stmt.where(Entity.name.ilike(f"%{search}%"))
+        stmt = stmt.where(Entity.name.ilike("%" + search + "%"))
     result = await db.execute(stmt)
     return result.scalars().all()
 
