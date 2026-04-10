@@ -40,11 +40,11 @@ def upgrade() -> None:
     op.create_index("ix_transactions_destination_wallet", "transactions", ["destination_wallet"])
     op.create_index("ix_transactions_mint", "transactions", ["mint"])
 
-    # TimescaleDB hypertable for time-series queries
-    op.execute(
-        "SELECT create_hypertable('transactions', 'block_time', "
-        "migrate_data => true, if_not_exists => true);"
-    )
+    # NOTE: We intentionally do not call create_hypertable here.
+    # Timescale hypertables require every UNIQUE constraint (including PRIMARY KEY)
+    # to include the partitioning column. This project benefits from Timescale,
+    # but keeping the schema compatible with vanilla Postgres simplifies local
+    # Docker setup and avoids FK/PK constraints becoming more complex.
 
     op.create_table(
         "entities",
